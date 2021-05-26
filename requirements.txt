@@ -1,0 +1,3 @@
+transformers==4.1.1
+torch==1.7.1+cu110
+pytorch_lightning==1.3.1
