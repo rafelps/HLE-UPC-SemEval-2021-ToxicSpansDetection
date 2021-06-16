@@ -1,7 +1,7 @@
 # HLE-UPC at SemEval-2021 Task 5: Toxic Spans Detection
 
-Official code for our submitted paper titled [**HLE-UPC at SemEval-2021 Task 5: Multi-Depth DistilBERT for Toxic 
-Spans Detection**][paper_url].
+Official code for our paper titled [**HLE-UPC at SemEval-2021 Task 5: Multi-Depth DistilBERT for Toxic 
+Spans Detection**][paper_url], accepted into the ACL-IJCNLP 2021 Workshop, ACL Proceedings and invited for a Poster Presentation.
 
 ## Requirements
 This project has been build using:
