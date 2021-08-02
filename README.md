@@ -177,18 +177,26 @@ $ python tag.py "Text to tag" --name best
 ## Citation
 You can cite our work using:
 ```bibtex
-@misc{pallisersans2021hleupc,
-      title={HLE-UPC at SemEval-2021 Task 5: Multi-Depth DistilBERT for Toxic Spans Detection}, 
-      author={Rafel Palliser-Sans and Albert Rial-Farràs},
-      year={2021},
-      eprint={2104.00639},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{palliser-sans-rial-farras-2021-hle,
+    title = "{HLE}-{UPC} at {S}em{E}val-2021 Task 5: Multi-Depth {D}istil{BERT} for Toxic Spans Detection",
+    author = "Palliser-Sans, Rafel  and
+      Rial-Farr{\`a}s, Albert",
+    booktitle = "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.semeval-1.131",
+    doi = "10.18653/v1/2021.semeval-1.131",
+    pages = "960--966",
+    abstract = "This paper presents our submission to SemEval-2021 Task 5: Toxic Spans Detection. The purpose of this task is to detect the spans that make a text toxic, which is a complex labour for several reasons. Firstly, because of the intrinsic subjectivity of toxicity, and secondly, due to toxicity not always coming from single words like insults or offends, but sometimes from whole expressions formed by words that may not be toxic individually. Following this idea of focusing on both single words and multi-word expressions, we study the impact of using a multi-depth DistilBERT model, which uses embeddings from different layers to estimate the final per-token toxicity. Our quantitative results show that using information from multiple depths boosts the performance of the model. Finally, we also analyze our best model qualitatively.",
+}
+
 }
 ```
 
 
-[paper_url]: https://arxiv.org/abs/2104.00639
+[paper_url]: https://aclanthology.org/2021.semeval-1.131/
 [weights_url]: https://www.dropbox.com/sh/92xtl13paxmwk1a/AACqeiYbhq7xCgHTOYjVYITca?dl=0
 [pytorch]: https://pytorch.org/
 [pl]: https://www.pytorchlightning.ai/
