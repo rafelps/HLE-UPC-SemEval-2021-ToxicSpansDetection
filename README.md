@@ -20,8 +20,8 @@ These metrics pushed us up to the **14th position** in the challenge.
 Results reported in this repository, however, are slightly different from the ones reported in the paper due to a minute improvement in our data cleaning process. In this second version, instead of following the guidelines specified in our [paper][paper_url], we applied the data cleaning steps in the following order:
 
 &nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;Whitespace Trimming  
-&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;Left-Right-Expansion  
 &nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;Singleton Removal  
+&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;Left-Right-Expansion  
 
 Moreover, in this second version, we have taken advantage of the publication of the ground truth for the test set to better assess our model against more data. 
 
